@@ -1,6 +1,7 @@
-
+import React, { useState} from 'react';
 import './App.css';
 import Fetch from './components/fetch';
+
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
       <title>Bot Battlr</title>
       <header>BOT BATTLR</header>
       <Fetch />
+      
     </div>
+  
   );
 }
 
