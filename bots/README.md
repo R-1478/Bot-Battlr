@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+Bot Battlr App
+Overview
+Bot Battlr is a simple React application that allows users to view a collection of bots, enlist them into their personal bot army, release them, and permanently discharge them from service. The app communicates with a server to fetch and manipulate bot data.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Bot Collection: View a list of available bots with details such as name, avatar, class, health, damage, and armor.
 
-## Available Scripts
+Your Bot Army: Enlist bots into your personal army, release them from service, and permanently discharge them.
 
-In the project directory, you can run:
+Enlistment Rules: A bot can only be enlisted once, and once enlisted, it is removed from the available bot collection.
 
-### `npm start`
+Discharge: Permanently delete a bot from the server and your personal army.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Installation
+Clone the repository.
+Run npm install to install dependencies.
+Start the app with npm start.
+Access the app at http://localhost:3000 in your browser.
+Use json-server --watch db.json --port 4000 to run the backend
+Usage
+Browse the available bots in the "Bot Collection" section.
+Click the "Enlist" button to add a bot to your personal "Bot Army."
+In the "Your Bot Army" section, manage your enlisted bots by releasing or permanently discharging them.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## License
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The contents of this repository, including all text, code, documentation, and related assets, are licensed under the following terms:
 
-### `npm run build`
+### 1. Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You are permitted to:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Use, modify, and distribute the contents of this repository for personal, educational, or non-commercial purposes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Fork and create derivative works based on this repository for your personal use or for sharing with others under the same terms.
 
-### `npm run eject`
+### 2. Restrictions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You are not permitted to:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Use the contents of this repository for any commercial or for-profit purposes without explicit consent 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Remove or alter the original authorship and copyright notices provided in this repository.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. Warranty and Liability
 
-## Learn More
+The contents of this repository are provided "as is," without any warranty or guarantee of fitness for any particular purpose. The author is not liable for any damages or issues arising from the use or distribution of this repository.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 4. Attribution
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you choose to use or distribute the contents of this repository, you must provide appropriate attribution to the original author  and include a reference to the original source repository.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Changes to this License
 
-### Analyzing the Bundle Size
+Evans Thitai reserves the right to make changes to this license as needed. Any modifications will be reflected in this document and will apply to future use and distribution of the repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+By using, modifying, or distributing the contents of this repository, you agree to abide by the terms of this license.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2023 Evans Thitai. All rights reserved.

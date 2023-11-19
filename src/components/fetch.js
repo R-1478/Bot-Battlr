@@ -32,7 +32,6 @@ export default function Fetch() {
   };
 
   const dischargeBot = (bot) => {
-    // Assuming there is an API endpoint to delete a bot
     fetch(`http://localhost:4000/bots/${bot.id}`, {
       method: 'DELETE',
     })
