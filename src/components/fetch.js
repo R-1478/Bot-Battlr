@@ -11,7 +11,7 @@ export default function Fetch() {
   const fetchData = () => {
     fetch('https://new-bot-mmsd.onrender.com/bots')
       .then((res) => res.json())
-      .then((data) => {
+      .then((data) => { 
         setBotCollection(data);
       });
   };
@@ -32,7 +32,7 @@ export default function Fetch() {
   };
 
   const dischargeBot = (bot) => {
-    fetch(`http://localhost:4000/bots/${bot.id}`, {
+    fetch(`https://new-bot-mmsd.onrender.com/bots${bot.id}`, {
       method: 'DELETE',
     })
       .then(() => {
