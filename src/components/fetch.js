@@ -9,7 +9,7 @@ export default function Fetch() {
   }, []);
 
   const fetchData = () => {
-    fetch('http://localhost:4000/bots')
+    fetch('https://new-bot-mmsd.onrender.com/bots')
       .then((res) => res.json())
       .then((data) => {
         setBotCollection(data);
