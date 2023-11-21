@@ -32,7 +32,7 @@ export default function Fetch() {
   };
 
   const dischargeBot = (bot) => {
-    fetch(`https://new-bot-mmsd.onrender.com/bots${bot.id}`, {
+    fetch(`https://new-bot-mmsd.onrender.com/bots/${bot.id}`, {
       method: 'DELETE',
     })
       .then(() => {
